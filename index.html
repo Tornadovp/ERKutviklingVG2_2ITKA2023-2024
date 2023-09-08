@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skjema</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h1>Kjema</h1>
+
+                <!-- Forklarer kravene -->
+    <div class="forklaring"><h2>Passord krav</h2>
+    <h3>Passordet må fylle minst tre av diesse fire kravene:<br> <br>
+        Minst ti tegn, et spesial tegn, et tall, eller en liten og en stor bokstav</h3></div>
+
+                    <!-- Her har vi skjema tingen -->
+    <form id="registreringsskjema">
+        <label for="fornavn">Fornavn:</label>
+        <input type="text" id="fornavn" required><br>
+        <label for="etternavn">Etternavn:</label>
+        <input type="text" id="etternavn" required><br>
+        <label for="adresse">Adresse:</label>
+        <input type="text" id="adresse" required><br>
+        <label for="postnummer">Postnummer:</label>
+        <input type="text" id="postnummer" required><br>        
+        <label for="poststed">poststed:</label>
+        <input type="text" id="poststed" required><br>     
+        <label for="telefon">Telefon:</label>
+        <input type="text" id="telefon" required><br>   
+        <label for="passord">Passord:</label>
+        <input type="password" id="passord" required><br>  
+        <input type="submit" value="Registrer deltaker">
+    </form>
+
+    <div id="oppsummering">
+        <h2>Deltakere:</h2>
+        <ul id="deltakerliste">
+            <!-- Svarene blir listet her -->
+        </ul>
+    </div>
+
+    <script defer src="script.js"></script>
+</a>
+</body>
+</html>
