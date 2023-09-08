@@ -1,2 +1,4 @@
 # ERKutviklingVG2_2ITKA2023-2024
-Prosjekter for utvikling VG2 2ITKA 
+Collections prosjekt
+
+Prosjekt fullført 08.09.2023
